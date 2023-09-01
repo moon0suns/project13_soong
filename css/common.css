@@ -2,20 +2,20 @@
 @import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
-/* html {
-    font-size: 6.25%;
-} */
+html {
+    font-size: 62.5%;
+}
 
 
-@media (max-width: 500px) {
+@media (max-width: 540px) {
     html {
         font-size: 0.25641025641vw;
         /* 390 size에 맞춤 (16/390*6.25/100) */
     }
 
-    body {
+    /* body {
         min-width: 320px;
-    }
+    } */
 }
 
 * {
@@ -94,8 +94,8 @@ textarea {
 
 
 
-@media (max-width: 768px) {
-    .sec_l::before {
-        width: 60px;
+@media (max-width: 540px) {
+    section {
+        padding: 50px 0;
     }
 }
