@@ -835,6 +835,7 @@
 
     .main_intro {
         background: none;
+        padding: 50px 0 0 0;
     }
 
     .main_intro .intro_con {
@@ -1223,10 +1224,6 @@
 @media (max-width: 540px) {
 
 
-    .main_news {
-        background: #f9f9f9;
-        /* 💥구분선 만들기 */
-    }
 
 
     .main_news .news_slide {
@@ -1659,12 +1656,12 @@
 }
 
 
+
 @media (max-width: 540px) {
 
     .main_study {
         background: #f9f9f9;
     }
-
 
     .main_study .sd_con {
         display: flex;
@@ -2328,6 +2325,13 @@
 
     }
 
+    .main_letter .lt_c .link .agree .content {
+        width: 100%;
+    }
+
+    .main_letter .lt_c .link .agree .content strong span {
+        display: block;
+    }
 
     .main_letter .lt_c .link .agree .title i {
         font-size: 24px;

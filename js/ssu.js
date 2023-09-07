@@ -186,7 +186,6 @@ $(function () {
 
 
 
-    AOS.init();
 
     $('.header .gnb>ul>li>a').on('click', function (e) {
         if ($('.header .gnb').hasClass('on')) {

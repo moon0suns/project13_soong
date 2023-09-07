@@ -13,9 +13,9 @@ html {
         /* 390 size에 맞춤 (16/390*6.25/100) */
     }
 
-    /* body {
+    body {
         min-width: 320px;
-    } */
+    }
 }
 
 * {
@@ -95,7 +95,7 @@ textarea {
 
 
 @media (max-width: 540px) {
-    section {
+    .sec {
         padding: 50px 0;
     }
 }
